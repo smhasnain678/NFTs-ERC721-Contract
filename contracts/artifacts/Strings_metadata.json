@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "StringsInsufficientHexLength",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "String operations.",
+			"errors": {
+				"StringsInsufficientHexLength(uint256,uint256)": [
+					{
+						"details": "The `value` string doesn't fit in the specified `length`."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/vortex_flattened.sol": "Strings"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/vortex_flattened.sol": {
+			"keccak256": "0x786f0158802de309ebcc9a7cfcfd96ba4ff7916948c0446bbe9f98d85ff0a4ec",
+			"urls": [
+				"bzz-raw://26f6534b428d1c673a9c92d826e2f8e48fca29cfc1f94f4658e99df12fc06eeb",
+				"dweb:/ipfs/Qmc3im82neAnRranxDdBhazCnwxDvDx1pk8C6T6H3j8apZ"
+			]
+		}
+	},
+	"version": 1
+}
